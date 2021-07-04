@@ -1,5 +1,4 @@
 <h1><b>To-Do List App<b></h1>
-<<<<<<< HEAD
 <h3><en>A simple To-Do List App built over using EJS and Javascript(Node) for the backend with HTML and CSS for the Frontend<en></h3>
  
 
@@ -24,8 +23,3 @@
     <a href="https://ibb.co/wpP0GXY"><img src="https://i.ibb.co/ssNmxGt/Website-image.jpg" alt="Website-image" border="0"></a><br/>
 
 <h3><b>This App is still in progress and more features are planned to be added.</b></h3>
-=======
-<h3><en>Project is still under development<en></h3>
-  
-<a href="https://ibb.co/wpP0GXY"><img src="https://i.ibb.co/ssNmxGt/Website-image.jpg" alt="Website-image" border="0"></a><br /><a target='_blank' href='https://usefulwebtool.com/'>italian accent generator</a><br />
->>>>>>> 784d6b331a1547510403c802776731551402fa57
