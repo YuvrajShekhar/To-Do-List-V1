@@ -1,25 +1,10 @@
-<!DOCTYPE html>
+<%- include("header") -%>
 
-<html>
-
-<head>
-    <style lang="en" type="text/css" id="night-mode-pro-style">
-        html {
-            background-color: none !important;
-        }
-
-        body {
-            background-color: none;
-        }
-    </style>
-    <title>To Do List</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
 
 <body>
     <div class="box" id="heading">
         <h1>
-            <%= kindOfDay %>
+            <%= listTitle %>
         </h1>
     </div>
 
@@ -35,11 +20,11 @@
             <form class="" action="/" method="post">
 
                 <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
-                <button type="submit" name="button">+</button>
+                <button type="submit" name="list" value=<%= listTitle  %>>+</button>
         
             </form>
     </div>
-
+ 
 
 
     <script>
@@ -50,6 +35,5 @@
     <script>
         document.getElementsByTagName("body")[0].style.backgroundColor = "transparent";
     </script>
-</body>
 
-</html>
+<%- include("footer") -%>
