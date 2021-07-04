@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style lang="en" type="text/css" id="night-mode-pro-style">
+        html {
+            background-color: none !important;
+        }
+
+        body {
+            background-color: none;
+        }
+    </style>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="box" id="heading">
+        <h1>
+            <%= kindOfDay %>
+        </h1>
+    </div>
+
+    <div class="box">
+        <% for(var i=0;i<newListItems.length;i++){ %>
+            <div class="item">
+                <input type="checkbox">
+                <p><%= newListItems[i]%></p>
+            </div>
+
+            <%}%>
+
+            <form class="" action="/" method="post">
+
+                <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+                <button type="submit" name="button">+</button>
+        
+            </form>
+    </div>
+
+
+
+    <script>
+
+    </script>
+
+    <script src="" async defer></script>
+    <script>
+        document.getElementsByTagName("body")[0].style.backgroundColor = "transparent";
+    </script>
+</body>
+
+</html>
